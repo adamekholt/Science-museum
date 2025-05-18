@@ -39,7 +39,7 @@ label {
     font-weight: 600;
     letter-spacing: 0.1rem;
     text-decoration: none;
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     line-height: 1.6;
     list-style-type: none;
     font-size: 1rem;
@@ -47,7 +47,7 @@ label {
 
 h1, h2, h3 {
     font-family: var(--PRIMARY-FONT);
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     font-style: italic;
     padding: 1rem;
 }
@@ -90,7 +90,7 @@ h3 {
 }
 
 .hero-text-box {
-    background-color: var(--NEUTRAL-LIGHT);
+    background-color: var(--NEUTRAL-DARK);
     min-height: 3rem;
     height: 56vh;
     max-height: 100rem;
@@ -115,7 +115,7 @@ h3 {
     width: 17rem;
     border: none;
     background-color: var(--BUTTONS);
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     border-radius: 5px;
     font-family: var(--PRIMARY-FONT);
     font-weight: 600;
@@ -171,7 +171,7 @@ h3 {
     font-size: 0.9rem;
     margin-top: 0.3rem;
     text-align: center;
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     letter-spacing: 0.1rem;
     font-weight: 700;
 }
@@ -190,7 +190,7 @@ h3 {
 /*Hamburgermenu*/
 .hamburger-menu {
     display: none;
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     cursor: pointer;
 }
 
@@ -228,7 +228,7 @@ h3 {
 .hamburger-menu-link {
     display: block;
     padding: 0.75rem 1rem;
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
@@ -243,7 +243,7 @@ h3 {
 /*Footer*/
 .site-footer {
     background-color: var(--HIGHLIGHT-GREEN);
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     padding: 2rem 1rem;
     margin-top: auto;
 }
@@ -308,7 +308,7 @@ h3 {
 .footer-content-block a {
     font-family: var(--PRIMARY-FONT);
     margin: 0.25rem 0;
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     text-decoration: none;
 }
 
@@ -336,7 +336,7 @@ h3 {
     font-family: var(--PRIMARY-FONT);
     display: none;
     margin-top: 1rem;
-    color: var(--NEUTRAL-LIGHT);
+    color: var(--NEUTRAL-DARK);
     font-weight: bold;
 }
 
