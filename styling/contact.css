@@ -1,0 +1,38 @@
+.contact-section {
+    background: linear-gradient(#2980E4 0%, #3FA752 100%);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.contact-section .hero-content-wrapper {
+    max-width: 600px;
+    width: 100%;
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--PRIMARY-FONT);
+}
+
+.contact-form .button {
+align-self: flex-start;
+margin-top: 1rem;
+}
+

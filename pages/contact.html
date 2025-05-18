@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styling/basestyling.css" />
+    <link rel="stylesheet" href="../styling/contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-links">
+            <div class="navbar-link" id="homepage-link">
+            <a href="/" area-label="go to homepage">
+              <img id="home" src="../assets/open-science-735787.jpg" class="header__img" alt="Science museum icon"/>
+            </a>
+            </div>
+
+            <div class="navbar-link">
+            <a href="./events.html" area-label="go to events page">
+                <figcaption>Events</figcaption>
+            </a>
+            </div>
+
+            <div class="navbar-link">
+            <a href="./plan-visit.html" area-label="Go to plan visit page">
+                <figcaption>Plan visit</figcaption>
+            </a>
+            </div>
+
+            <div class="navbar-link">
+            <a href="./exhibitions.html" area-label="Go to exhibitions page">
+                <figcaption>Exhibitions</figcaption>
+            </a>
+            </div>
+
+            <div class="navbar-link">
+            <a href="./contact.html" area-label="Go to contact page">
+                <figcaption>Contact</figcaption>
+            </a>
+            </div>
+        </div>
+        
+        <div class="hamburger-menu" tabindex="0" aria-label="Open navigation menu">
+            <i class="fa-solid fa-bars fa-2x" area-label="Hamburger icon"></i>
+            <nav class="hamburger-menu-nav">
+                <ul id="nav-list" class="hamburger-menu-nav-list">
+                <li class="hamburger-menu-item"><a class="hamburger-menu-link" href="./events.html" area-label="Go to events page">Events</a></li>
+                <li class="hamburger-menu-item"><a class="hamburger-menu-link" href="./plan-visit.html" area-label="Go to plan visit page">Plan visit</a></li>
+                <li class="hamburger-menu-item"><a class="hamburger-menu-link" href="./exhibitions.html" area-label="Go to exhibitions page">Exhibitions</a></li>
+                <li class="hamburger-menu-item"><a class="hamburger-menu-link" href="./contact.html" area-label="Go to contact page">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+        
+        
+    <main class="hero">
+        <section class="contact-section">
+          <div class="hero-content-wrapper">
+            <h1>Contact Us</h1>
+            <h3>We'd love to hear from you</h3>
+      
+            <form class="contact-form" action="./formvalidation-page.html" method="get">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+      
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+      
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+      
+              <button formaction="./formvalidation-page.html" type="submit" class="button" aria-label="Send message">Send Message</button>
+            </form>
+          </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="newsletter-section">
+            <h3>Be first to hear about cool events and fun stuff!</h3>
+            <form class="newsletter-form" action="#register">
+                <label for="newsletter-input" class="visually-hidden">Enter your email to subscribe to our newsletter</label>
+                <input type="email" id="newsletter-input" name="newsletter-email" placeholder="Your email..." required>
+                <button type="submit" class="button" id="newsletter-submit" aria-label="Confirm">Subscribe</button>
+            </form>
+    
+            <div id="register" class="form-validation-message">Woohoo! You’re now part of our science crew!</div>
+        </div>
+    
+        <div class="footer-content-wrapper">
+            <div class="footer-content-block">
+                <ul>
+                    <li><a href="./plan-visit.html" aria-label="Go to plan visit page">Plan visit</a></li>
+                    <li><a href="./events.html" aria-label="Go to events page">Events</a></li>
+                    <li><a href="./exhibitions.html" aria-label="Go to exhibitions page">Exhibitions</a></li>
+                    <li><a href="./contact.html" aria-label="Go to contact page">Contact us</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-content-block">
+                <p>Opening hours</p>
+                <li>Monday: Closed</li>
+                <li>Tuesday-Thursday: 10:00 – 16:00</li>
+                <li>Friday: 10:00 – 19:00</li>
+                <li>Saturday: 9:00 – 16:00</li>
+                <li>Sunday: 9:00 – 13:00</li>
+            </div>
+    
+            <div class="footer-content-block">
+                <p>Follow us</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" aria-label="Visit our Facebook page"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="Visit our Instagram page"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>2025 Community Science Museum.</p>
+        </div>
+    </footer>
+       
+</body>
+</html>

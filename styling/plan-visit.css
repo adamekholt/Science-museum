@@ -1,0 +1,54 @@
+.plan-visit-section {
+  background: linear-gradient(#2980E4 0%, #3FA752 100%);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.plan-visit .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.plan-visit .hero-content-wrapper {
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+
+.plan-visit-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.plan-visit-info article {
+  flex: 1 1 300px;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.plan-visit-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.plan-visit-info ul {
+  padding-left: 1.25rem;
+}
+
